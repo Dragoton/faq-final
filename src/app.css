@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+body {
+  background-color: #369dbd;
+}
+
+.header-app {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-box > * {
+  margin-right: 1rem;
+}
+
+.logo-box p {
+  color: #fcc74c;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.login-box {
+  display: flex;
+  align-items: center;
+}
+
+.login-box > * {
+  margin-right: 1rem;
+}
+
+.login-box p {
+  color: #fcc74c;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.login-button {
+  height: 1.6rem;
+  width: 4rem;
+  border-radius: 10px;
+  background-color: #3c29c7;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.intro-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.info-box h3 {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #3c29c7;
+  padding: 0.5rem;
+}
+
+.info-box p {
+  padding-bottom: 0.5rem;
+  color: white;
+}
+.intro-box h2 {
+  font-size: 44px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #3c29c7;
+  padding: 1rem;
+}

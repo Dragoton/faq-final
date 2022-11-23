@@ -1,9 +1,10 @@
 import Post from "./Post";
+import "./index.css";
 
 const ListPage = ({ searchResults }) => {
-  const results = searchResults.map((post) => (
-    <Post key={post.id} post={post} />
-  ));
+  const results = searchResults
+    .slice(0, 6)
+    .map((post) => <Post key={post.id} post={post} />);
 
   const content = results?.length ? (
     results
@@ -13,7 +14,7 @@ const ListPage = ({ searchResults }) => {
     </article>
   );
 
-  return <main>{content}</main>;
+  return <div className="content">{content}</div>;
 };
 
 export default ListPage;
