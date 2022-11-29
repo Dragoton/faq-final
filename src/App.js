@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 import ListPage from "./ListPage";
 import Logo from "./img/logo.svg";
+import Tire from "./img/oneIcon.svg";
+import Time from "./img/twoIcon.svg";
+import Duck from "./img/threeIcon.svg";
 import Video from "./img/rubberDuckVideo.mp4";
 import "./app.css";
 
@@ -38,6 +41,20 @@ function App() {
       </div>
       <div className="intro-box">
         <h2>What do we do?</h2>
+        <div className="icon-big-box">
+          <div className="icon-small-box">
+            <img src={Tire} alt="Rubber duck logo" />
+            <p>you choose the tires</p>
+          </div>
+          <div className="icon-small-box">
+            <img src={Time} alt="Rubber duck logo" />
+            <p>place and time</p>
+          </div>
+          <div className="icon-small-box">
+            <img src={Duck} alt="Rubber duck logo" />
+            <p>we do the rest</p>
+          </div>
+        </div>
         <video width="50%" height="50%" preload="auto">
           <source src={Video} type="video/mp4" />
           Your browser does not support HTML5 video.
@@ -48,6 +65,13 @@ function App() {
         <h3>How can we help?</h3>
         <p>Here you will find informations that interest you</p>
         <SearchBar posts={posts} setSearchResults={setSearchResults} />
+      </div>
+      <div className="category-box">
+        <div> Category:</div>
+        <div>Tires</div>
+        <div>Wires</div>
+        <div>Pick</div>
+        <div>Location</div>
       </div>
       <ListPage searchResults={searchResults} />
       <div className="didyoufound">

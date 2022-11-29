@@ -63,6 +63,27 @@ body {
   align-items: center;
 }
 
+.icon-big-box {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-small-box {
+  padding: 1rem;
+  width: 20%;
+}
+
+.icon-small-box img {
+  scale: 0.8;
+}
+
+.icon-small-box p {
+  text-align: center;
+  scale: 0.9;
+  color: #dbdbdb;
+  padding-left: 1rem;
+}
+
 .info-box {
   display: flex;
   flex-direction: column;
@@ -102,4 +123,13 @@ body {
   font-weight: 700;
   color: #fcc74c;
   padding: 0.5rem;
+}
+
+.category-box {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.category-box div {
+  padding-right: 0.5rem;
 }
