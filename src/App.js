@@ -25,15 +25,15 @@ function App() {
           <span>
             <p>|</p>
           </span>
-          <span>
+          <span className="helpcenter">
             <p>help center</p>
           </span>
         </div>
         <div className="login-box">
           <span>
-            <p>EN | DK</p>
+            <p>en | dk</p>
           </span>
-          <button className="login-button">LOG IN</button>
+          <button className="login-button">log in</button>
         </div>
       </div>
       <div className="intro-box">
@@ -50,6 +50,15 @@ function App() {
         <SearchBar posts={posts} setSearchResults={setSearchResults} />
       </div>
       <ListPage searchResults={searchResults} />
+      <div className="didyoufound">
+        <div className="found-title">
+          <h3>Did you find what you were looking for?</h3>
+        </div>
+        <div className="buttons">
+          <button>YES</button>
+          <button>NO</button>
+        </div>
+      </div>
     </>
   );
 }

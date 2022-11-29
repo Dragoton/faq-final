@@ -40,14 +40,20 @@ body {
   font-weight: 500;
 }
 
+.helpcenter p {
+  color: #dbdbdb;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+}
+
 .login-button {
   height: 1.6rem;
   width: 4rem;
   border-radius: 10px;
-  background-color: #3c29c7;
+  background-color: #5d4ce0;
   border: none;
   font-size: 16px;
-  color: white;
+  color: #dbdbdb;
 }
 
 .intro-box {
@@ -68,18 +74,32 @@ body {
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #3c29c7;
-  padding: 0.5rem;
+  color: #fcc74c;
 }
 
 .info-box p {
   padding-bottom: 0.5rem;
-  color: white;
+  color: #dbdbdb;
 }
 .intro-box h2 {
   font-size: 44px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  color: #3c29c7;
+  color: #fcc74c;
   padding: 1rem;
+}
+
+.didyoufound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+.didyoufound h3 {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fcc74c;
+  padding: 0.5rem;
 }

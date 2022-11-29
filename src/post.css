@@ -1,0 +1,11 @@
+article {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 25px;
+}
+
+article h2 {
+  padding-bottom: 0.5rem;
+  font-size: 18px;
+  color: #3c29c7;
+}
