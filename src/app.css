@@ -125,11 +125,6 @@ body {
   padding: 0.5rem;
 }
 
-.category-box {
-  display: flex;
-  padding-left: 1rem;
-}
-
-.category-box div {
-  padding-right: 0.5rem;
+.did-buttons button {
+  margin: 1rem;
 }

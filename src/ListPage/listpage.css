@@ -1,0 +1,22 @@
+.FAQ-container {
+  width: 100%;
+  height: auto;
+}
+.category-box {
+  display: flex;
+  padding: 2rem 0rem 0rem 2rem;
+}
+
+.category-box div {
+  padding-right: 0.5rem;
+}
+
+.results-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  width: 90%;
+  margin: 2rem 2rem 0 2rem;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}

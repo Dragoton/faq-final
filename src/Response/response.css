@@ -1,0 +1,12 @@
+.answer-box {
+  width: 400px;
+  height: 100px;
+  background-color: #ffffff10;
+  backdrop-filter: blue(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 30px;
+}
+
+.answer-div {
+  padding: 2rem;
+}

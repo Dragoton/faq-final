@@ -1,0 +1,23 @@
+#search {
+  width: 250px;
+  height: 1.6rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+}
+
+.searchicon {
+  position: absolute;
+  width: 50px;
+  margin-top: 0.3rem;
+  margin-left: 0.8rem;
+}
+
+.searchicon svg {
+  scale: 1.4;
+  color: #5d4ce0;
+}
+
+input {
+  padding-left: 2.5rem;
+}

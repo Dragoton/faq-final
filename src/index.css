@@ -35,37 +35,8 @@ code {
     monospace;
 }
 
-/*LIST PAGE*/
 
-.content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-content: center;
-  width: 90%;
-  margin: 2rem 2rem 0 2rem;
-  gap: 1rem;
-  padding-bottom: 4rem;
-}
 
-#search {
-  width: 250px;
-  height: 1.6rem;
-  border: none;
-  border-radius: 20px;
-  background-color: #f9f9f9;
-}
-input {
-  padding-left: 2.5rem;
-}
 
-.searchicon {
-  position: absolute;
-  width: 50px;
-  margin-top: 0.3rem;
-  margin-left: 0.8rem;
-}
 
-.searchicon svg {
-  scale: 1.4;
-  color: #5d4ce0;
-}
+
