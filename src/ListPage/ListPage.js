@@ -11,7 +11,6 @@ const ListPage = ({ searchResults }) => {
     ));
 
   function SelectedCategory(value) {
-    // console.log(value);
     setCategorySelected(value);
   }
 
@@ -19,36 +18,45 @@ const ListPage = ({ searchResults }) => {
     <>
       <div className="FAQ-container">
         <div className="category-box">
-          <div>Category:</div>
+          <div id="category-div">category:</div>
           <div
             id={"All"}
-            onClick={(event) => SelectedCategory(event.target.id)}
+            onClick={(event) => {
+              SelectedCategory(event.target.id);
+            }}
+            className={categorySelected === "All" ? "focused" : ""}
           >
-            All
+            all
           </div>
           <div
             id={"Tires"}
-            onClick={(event) => SelectedCategory(event.target.id)}
+            onClick={(event) => {
+              SelectedCategory(event.target.id);
+            }}
+            className={categorySelected === "Tires" ? "focused" : ""}
           >
-            Tires
+            tires
           </div>
           <div
             id={"Wires"}
             onClick={(event) => SelectedCategory(event.target.id)}
+            className={categorySelected === "Wires" ? "focused" : ""}
           >
-            Wires
+            wires
           </div>
           <div
             id={"Pick"}
             onClick={(event) => SelectedCategory(event.target.id)}
+            className={categorySelected === "Pick" ? "focused" : ""}
           >
-            Pick
+            pick
           </div>
           <div
             id={"Location"}
             onClick={(event) => SelectedCategory(event.target.id)}
+            className={categorySelected === "Location" ? "focused" : ""}
           >
-            Location
+            location
           </div>
         </div>
         <div className="results-container">{results}</div>

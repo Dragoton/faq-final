@@ -18,13 +18,13 @@ function Response() {
           onClick={(event) => ChangeButton(event.target.id)}
           id="button-yes"
         >
-          YES
+          yes
         </button>
         <button
           onClick={(event) => ChangeButton(event.target.id)}
           id="button-no"
         >
-          NO
+          no
         </button>
       </div>
       <div>

@@ -3,20 +3,46 @@
   height: auto;
 }
 .category-box {
+  font-family: "Varta", sans-serif;
   display: flex;
-  padding: 2rem 0rem 0rem 2rem;
+  justify-content: start;
+  padding: 2rem 0 0 0;
+  margin-left: 5rem;
 }
 
 .category-box div {
-  padding-right: 0.5rem;
+  border-radius: 30px;
+  margin-left: 0.2rem;
+  padding: 0 0.5rem 0 0.5rem;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.category-box:not(:first-child) {
+  color: #fcc74c;
+}
+
+.category-div:hover {
+  text-decoration: none;
 }
 
 .results-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
-  width: 90%;
-  margin: 2rem 2rem 0 2rem;
+  width: 80%;
+  margin-top: 1rem;
   gap: 1rem;
   padding-bottom: 4rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.focused {
+  color: #fcc74c !important;
+}
+
+.MuiPaper-root {
+  background-color: #97b7c6;
 }

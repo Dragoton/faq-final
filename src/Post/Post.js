@@ -18,7 +18,7 @@ const Post = ({ post, categorySelected }) => {
     <>
       {categorySelected === "All" ? (
         <article>
-          <Accordion>
+          <Accordion id="accordion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -39,7 +39,7 @@ const Post = ({ post, categorySelected }) => {
         <>
           {post.category === categorySelected ? (
             <article>
-              <Accordion>
+              <Accordion id="accordion">
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"

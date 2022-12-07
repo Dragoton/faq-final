@@ -35,9 +35,6 @@ function App() {
           </span>
         </div>
         <div className="login-box">
-          <span>
-            <p>en | dk</p>
-          </span>
           <button className="login-button">log in</button>
         </div>
       </div>
