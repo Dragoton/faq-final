@@ -66,5 +66,6 @@
   }
   .category-box {
     justify-content: center;
+    margin: 0;
   }
 }

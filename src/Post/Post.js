@@ -7,9 +7,6 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./post.css";
 
 const Post = ({ post, categorySelected }) => {
-  // console.log(categorySelected);
-  // console.log(post);
-
   if (post.category === categorySelected) {
     console.log("this is working ", post);
   }
