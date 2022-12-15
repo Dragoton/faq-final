@@ -2,6 +2,9 @@ article {
   border-radius: 80px;
 }
 
+#accordion {
+  min-height: 85px;
+}
 #accordion:hover {
   background-color: #f3f1ef;
 }
@@ -20,4 +23,15 @@ article h2 {
 article p {
   font-family: "Varta", sans-serif;
   font-size: 12px;
+}
+
+.MuiAccordionSummary-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.MuiAccordionDetails-root p {
+  font-family: "Varta", sans-serif;
+  font-size: 12px !important;
 }

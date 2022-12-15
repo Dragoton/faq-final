@@ -4,60 +4,6 @@ body {
   background-color: #272f56;
 }
 
-.header-app {
-  display: flex;
-  align-items: center;
-  margin: 1.5rem;
-  justify-content: space-between;
-}
-
-.logo-box {
-  display: flex;
-  align-items: center;
-}
-
-.logo-box > * {
-  margin-right: 1rem;
-}
-
-.logo-box p {
-  color: #fcc74c;
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
-.login-box {
-  display: flex;
-  align-items: center;
-}
-
-.login-box > * {
-  margin-right: 1rem;
-}
-
-.login-box p {
-  color: #fcc74c;
-  font-size: 1.15rem;
-  font-weight: 500;
-}
-
-.helpcenter p {
-  color: #f3f1ef;
-  font-weight: 400;
-  letter-spacing: 0.06rem;
-}
-
-.login-button {
-  height: 1.6rem;
-  width: 4rem;
-  border-radius: 10px;
-  background-color: #f26184;
-  border: none;
-  font-size: 10px;
-  font-weight: 600;
-  color: white;
-}
-
 .intro-box {
   display: flex;
   flex-direction: column;
@@ -68,22 +14,18 @@ body {
 .icon-big-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .icon-small-box {
+  display: flex;
+  justify-content: center;
   padding: 1rem;
   width: 20%;
 }
 
 .icon-small-box img {
-  scale: 0.8;
-}
-
-.icon-small-box p {
-  text-align: center;
-  color: #dbdbdb;
-  padding-left: 1rem;
-  font-size: 12px;
+  scale: 0.7;
 }
 
 .info-box {
@@ -107,9 +49,40 @@ body {
   color: #dbdbdb;
 }
 .intro-box h2 {
-  font-size: 44px;
+  font-size: 38px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: #fcc74c;
-  padding: 1rem;
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-box h2 {
+    font-size: 30px;
+  }
+
+  .icon-big-box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-small-box {
+    padding: 0;
+    scale: 0.8;
+  }
+
+  .icon-small-box img {
+    gap: 2rem;
+  }
+
+  .video {
+    width: 90%;
+  }
+  .info-box h3 {
+    scale: 0.7;
+  }
+
+  .category-box {
+    margin: 0;
+  }
 }

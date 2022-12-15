@@ -1,0 +1,73 @@
+.header-app {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-box > * {
+  margin-right: 1rem;
+}
+
+.logo-box p {
+  color: #fcc74c;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.login-box {
+  display: flex;
+  align-items: center;
+}
+
+.login-box > * {
+  margin-right: 1rem;
+}
+
+.login-box p {
+  color: #fcc74c;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.helpcenter p {
+  color: #f3f1ef;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+}
+
+.login-button {
+  height: 1.6rem;
+  width: 4rem;
+  border-radius: 30px;
+  background-color: #f26184;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+@media only screen and (max-width: 445px) {
+  .header-app {
+    margin: 2;
+    justify-content: center;
+  }
+  .logo-box {
+    scale: 0.8;
+  }
+
+  .helpcenter p {
+    scale: 0.8;
+    font-weight: 600;
+  }
+
+  .login-box {
+    scale: 0.8;
+    margin-right: 0.5rem;
+  }
+}

@@ -24,14 +24,10 @@ const Post = ({ post, categorySelected }) => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>
-                <h2>{post.title}</h2>
-              </Typography>
+              <Typography>{post.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                <p>{post.body}</p>
-              </Typography>
+              <Typography>{post.body}</Typography>
             </AccordionDetails>
           </Accordion>
         </article>
@@ -45,14 +41,10 @@ const Post = ({ post, categorySelected }) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
-                    <h2>{post.title}</h2>
-                  </Typography>
+                  <Typography>{post.title}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography>
-                    <p>{post.body}</p>
-                  </Typography>
+                  <Typography>{post.body}</Typography>
                 </AccordionDetails>
               </Accordion>
             </article>

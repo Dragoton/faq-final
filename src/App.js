@@ -1,13 +1,14 @@
 import { getPosts } from "./api/axios";
 import { useState, useEffect } from "react";
+import Header from "./Header/header";
 import SearchBar from "./Search/SearchBar";
 import ListPage from "./ListPage/ListPage";
 import Response from "./Response/response";
-import Logo from "./img/logo.svg";
 import Tire from "./img/oneIcon.svg";
 import Time from "./img/twoIcon.svg";
 import Duck from "./img/threeIcon.svg";
 import Video from "./img/rubberDuckVideo.mp4";
+import Footer from "./Footer/footer";
 import "./app.css";
 
 function App() {
@@ -24,37 +25,18 @@ function App() {
 
   return (
     <>
-      <div className="header-app">
-        <div className="logo-box">
-          <img src={Logo} alt="Rubber duck logo" />{" "}
-          <span>
-            <p>|</p>
-          </span>
-          <span className="helpcenter">
-            <p>help center</p>
-          </span>
-        </div>
-        <div className="login-box">
-          <button className="login-button">log in</button>
-        </div>
-      </div>
+      <Header />
       <div className="intro-box">
-        <h2>What do we do?</h2>
+        <h2>What RubberDuck do?</h2>
         <div className="icon-big-box">
           <div className="icon-small-box">
             <img src={Tire} alt="Rubber duck logo" />
-            <p>you choose the tires</p>
-          </div>
-          <div className="icon-small-box">
             <img src={Time} alt="Rubber duck logo" />
-            <p>place and time</p>
-          </div>
-          <div className="icon-small-box">
             <img src={Duck} alt="Rubber duck logo" />
-            <p>we do the rest</p>
           </div>
         </div>
         <video
+          className="video"
           controls
           disablePictureInPicture
           controlsList="nodownload"
@@ -68,7 +50,7 @@ function App() {
       </div>
 
       <div className="info-box">
-        <h3>How can we help?</h3>
+        <h3>You have a question?</h3>
         <p>Here you will find informations that interest you</p>
         <SearchBar posts={posts} setSearchResults={setSearchResults} />
       </div>
@@ -76,6 +58,7 @@ function App() {
       <ListPage searchResults={searchResults} />
       {/* {searchResults ? console.log(searchResults) : <></>} */}
       <Response />
+      <Footer />
     </>
   );
 }

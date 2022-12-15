@@ -4,11 +4,9 @@ import { useState } from "react";
 
 const ListPage = ({ searchResults }) => {
   const [categorySelected, setCategorySelected] = useState("All");
-  const results = searchResults
-    .slice(0, 6)
-    .map((post) => (
-      <Post key={post.id} post={post} categorySelected={categorySelected} />
-    ));
+  const results = searchResults.map((post) => (
+    <Post key={post.id} post={post} categorySelected={categorySelected} />
+  ));
 
   function SelectedCategory(value) {
     setCategorySelected(value);
@@ -26,37 +24,37 @@ const ListPage = ({ searchResults }) => {
             }}
             className={categorySelected === "All" ? "focused" : ""}
           >
-            all
+            All
           </div>
           <div
-            id={"Tires"}
+            id={"change"}
             onClick={(event) => {
               SelectedCategory(event.target.id);
             }}
-            className={categorySelected === "Tires" ? "focused" : ""}
+            className={categorySelected === "change" ? "focused" : ""}
           >
-            tires
+            Tire change
           </div>
           <div
-            id={"Wires"}
+            id={"buy"}
             onClick={(event) => SelectedCategory(event.target.id)}
-            className={categorySelected === "Wires" ? "focused" : ""}
+            className={categorySelected === "buy" ? "focused" : ""}
           >
-            wires
+            Buy tires
           </div>
           <div
-            id={"Pick"}
+            id={"rent"}
             onClick={(event) => SelectedCategory(event.target.id)}
-            className={categorySelected === "Pick" ? "focused" : ""}
+            className={categorySelected === "rent" ? "focused" : ""}
           >
-            pick
+            Rent tires
           </div>
           <div
-            id={"Location"}
+            id={"patch"}
             onClick={(event) => SelectedCategory(event.target.id)}
-            className={categorySelected === "Location" ? "focused" : ""}
+            className={categorySelected === "patch" ? "focused" : ""}
           >
-            location
+            Patching
           </div>
         </div>
         <div className="results-container">{results}</div>

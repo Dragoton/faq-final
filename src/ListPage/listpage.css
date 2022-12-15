@@ -43,6 +43,20 @@
   color: #fcc74c !important;
 }
 
-.MuiPaper-root {
-  background-color: #97b7c6;
+@media only screen and (max-width: 600px) {
+  .results-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #category-div {
+    display: none;
+  }
+  .category-box {
+    justify-content: center;
+  }
 }

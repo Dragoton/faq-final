@@ -2,50 +2,155 @@
   {
     "userId": 1,
     "id": 1,
-    "category": "Location",
+    "category": "change",
+    "title": "How long does a wheel change take?",
+    "body": "It takes our mechanics up to 45 minutes to change all 4 wheels on the car."
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "category": "change",
+    "title": "What is tire change and what is wheel change?",
+    "body": "When we change a tire, we change the tire that sits on the rim. This means that the rim is not changed. With a wheel change, on the other hand, we replace the entire wheel (also called a complete wheel), thus both the rim and the tire are replaced with another wheel."
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "category": "change",
+    "title": "How much does it cost to have my tires changed?",
+    "body": "If we have to change a wheel, it costs DKK 599. If, on the other hand, we have to change a tire (change of tire on the same rim), it costs from DKK 999. The price is the same regardless of whether you have to change from summer tires to winter tires or vice versa."
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "category": "change",
+    "title": "Do I have to be present during the shift?",
+    "body": "Our mechanics must use the car key during the shift, i.a. to find any locking bolts, reset the tire pressure sensor, etc. It is not necessary to be present during the shift, as long as you make sure that the mechanic gets the car key when he arrives."
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "category": "change",
+    "title": "Is there is enough space around the car?",
+    "body": "As a starting point, there should be at least a small distance to the right and left of the car. In addition, the car should not be parked close to a curb, as this prevents the car from being lifted with a jack."
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "category": "change",
+    "title": "Tire change at my address?",
+    "body": "As a starting point, we only service Zealand, and mainly in the capital area. When you book an appointment on our website and enter your address, the system tells you whether we service your area. If you are in doubt, you can always write to us."
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "category": "change",
+    "title": "Can you change my tires while I'm at work?",
+    "body": "We do both wheel changes and tire changes on site. Whether you are at home, at work, or somewhere else, we will gladly come by and change your tires or wheels. If you are unsure whether we are in your area, you can enter your address under the tire change menu and see , whether we drive to this address."
+  },
+  {
+    "userId": 1,
+    "id": 8,
+    "category": "change",
+    "title": "I don't know my tire size?",
+    "body": "The tire size is easily read by looking at the side of the tire."
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "category": "buy",
     "title": "When should you switch to winter tires?",
     "body": "We recommend that you start considering switching to winter tires in the month of November. In November, the temperature drops below 10 degrees, and winter tires are therefore just as effective as summer tires. This means you are prepared for any sudden weather changes that may occur at the beginning of December."
   },
   {
     "userId": 1,
-    "id": 2,
-    "category": "Tires",
-    "title": "What is the difference between winter-summer tires?",
+    "id": 10,
+    "category": "buy",
+    "title": "Winter tires or summer tires?",
     "body": "Winter tires have more extensive patterns and are made of softer rubber than summer tires. This means that winter tires have a better grip on the road at cold temperatures, as well as on surfaces such as ice and snow. Conversely, summer tires work best in mild and warm temperatures, as well as rainy weather."
   },
   {
     "userId": 1,
-    "id": 3,
-    "category": "Wires",
+    "id": 11,
+    "category": "buy",
     "title": "When are my tires tender?",
-    "body": "All tires soften over time, some tires more than others. It can be dangerous to drive with softened tyres, as the tyre's driving properties deteriorate, i.a. its braking performance. Some tires soften already after 3-4 years, while other tires last up to 10 years before they start to soften. This depends in particular on the storage of the tyres, as temperature and humidity affect how the tires soften. At Rubberduck, we store the tires dry and frost-free in order to extend the life of the tires as much as possible. In addition, we check tire pressure, tire quality and the tire tread, so you can always feel confident and safe driving."
+    "body": "All tires soften over time, some tires more than others. It can be dangerous to drive with softened tires, as the tire's driving properties deteriorate, i.a. its braking performance. Some tires soften already after 3-4 years, while other tires last up to 10 years before they start to soften. This depends in particular on the storage of the tires, as temperature and humidity affect how the tires soften. At Rubberduck, we store the tires dry and frost-free in order to extend the life of the tires as much as possible. In addition, we check tire pressure, tire quality and the tire tread, so you can always feel confident and safe driving."
   },
   {
     "userId": 1,
-    "id": 4,
-    "category": "Wires",
-    "title": "Why switch to winter tyres?",
+    "id": 12,
+    "category": "buy",
+    "title": "Why switch to winter tires?",
     "body": "When the temperature drops in the winter months, the summer tire's driving properties deteriorate drastically. The roads become slippery, and this means that the tires do not have the same grip on the road, especially when the snow falls and the temperature reaches freezing. Without winter tires, the car will be difficult to maneuver and have poorer braking performance, which can cause serious accidents."
   },
   {
     "userId": 1,
-    "id": 5,
-    "category": "Tires",
-    "title": "Why switch to summer tyres?",
+    "id": 13,
+    "category": "buy",
+    "title": "I don't know my tire size?",
     "body": "During the warm months of the year, winter tires are not as safe to drive as summer tires. This is due, among other things, to that the winter tire's rubber compound is not suitable for warmer temperatures, and thus road grip and braking performance deteriorate. In addition, the durability of winter tires is affected, as they wear out more quickly in the mild and hot summer weather."
   },
   {
     "userId": 1,
-    "id": 6,
-    "category": "Pick",
+    "id": 14,
+    "category": "buy",
     "title": "When are my tires worn out?",
-    "body": "For both winter and summer tyres, it is a legal requirement that there is at least 1.6mm of tread remaining. FDM and Rubberduck recommend that there is a minimum of 3.00 mm of wear track remaining."
+    "body": "For both winter and summer tires, it is a legal requirement that there is at least 1.6mm of tread remaining. FDM and Rubberduck recommend that there is a minimum of 3.00 mm of wear track remaining."
   },
   {
     "userId": 1,
-    "id": 7,
-    "category": "Pick",
-    "title": "When should you switch to summer tyres?",
+    "id": 15,
+    "category": "buy",
+    "title": "When should you switch to summer tires?",
     "body": "We recommend that you switch to summer tires from the beginning of April. In April, there is a low risk of frost and snow, and the temperature is around 5-10 degrees, where the pattern and rubber compound of the summer tires ensure proper grip to a greater extent."
+  },
+  {
+    "userId": 1,
+    "id": 16,
+    "category": "rent",
+    "title": "Can I rent tires?",
+    "body": "With a tire agreement with us, you rent new summer and winter tires. This means that you do not need to invest in expensive tires, while you are always driving well and safely."
+  },
+  {
+    "userId": 1,
+    "id": 17,
+    "category": "rent",
+    "title": "What includes rent tire offer?",
+    "body": "With a tire agreement, you don't have to drive to a workshop when you need to change to either summer or winter tires. Instead, we come to you and put new tires on your car. We also take the excess tires back to our professional tire hotel."
+  },
+  {
+    "userId": 1,
+    "id": 18,
+    "category": "rent",
+    "title": "Can I store tires at your place?",
+    "body": "With a tire agreement, you only have to deal with the tires that are on your car. We will also store your tires and prepare them for next season."
+  },
+  {
+    "userId": 1,
+    "id": 19,
+    "category": "patch",
+    "title": "Do you patch car tires?",
+    "body": "At Rubberduck, we always send our service van out to you as quickly as possible, wherever you are, especially if you are on a motorway. We have the necessary tools with us, and we can therefore carry out the patching work on site - including removing, fitting and balancing your tires."
+  },
+  {
+    "userId": 1,
+    "id": 20,
+    "category": "patch",
+    "title": "Can you patch the big hole on my tire?",
+    "body": "Our competent mechanics are ready to help patch your tire. However, there are cases where patching is not possible. This is, for example, if the hole is located more than 5 centimeters from where the tire touches the asphalt or on the side of the tire."
+  },
+  {
+    "userId": 1,
+    "id": 21,
+    "category": "patch",
+    "title": "Do I need to wait while my tire is patched?",
+    "body": "Rubberduck makes it easy for you to get your tire patched. All you have to do is book an appointment and inform us where to find the car key. If we have the key, we can do our work without you having to be present. Book an appointment already today."
+  },
+  {
+    "userId": 1,
+    "id": 22,
+    "category": "patch",
+    "title": "How long does it take to patch a tire?",
+    "body": "A proper tire patch takes about 20 to 30 minutes. This is because the tire has to be taken off the car and inspected properly."
   }
 ]
