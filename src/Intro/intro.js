@@ -11,9 +11,9 @@ const Intro = () => {
         <h2>What RubberDuck do?</h2>
         <div className="icon-big-box">
           <div className="icon-small-box">
-            <img src={Tire} alt="Rubber duck logo" />
-            <img src={Time} alt="Rubber duck logo" />
-            <img src={Duck} alt="Rubber duck logo" />
+            <img src={Tire} alt="Rubber duck tire" />
+            <img src={Time} alt="Rubber duck time" />
+            <img src={Duck} alt="Rubber duck service" />
           </div>
         </div>
         <video
