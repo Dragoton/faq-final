@@ -43,6 +43,14 @@
   color: #fcc74c !important;
 }
 
+.no-posts {
+  display: flex;
+  justify-content: center;
+  font-family: "Varta", sans-serif;
+  padding: 4rem;
+  color: #fcc74c;
+}
+
 @media only screen and (max-width: 600px) {
   .results-container {
     grid-template-columns: 1fr;

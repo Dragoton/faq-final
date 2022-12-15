@@ -5,27 +5,24 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="about">
-          <h2>COMPANY</h2>
+          <h2>ADDRESS</h2>
           <div className="footer-topics">
-            <div>Contact</div>
-            <div>Support</div>
-            <div>About us</div>
+            <div>Jernholmen 5</div>
+            <div>2650 Hvidovre</div>
           </div>
         </div>
         <div className="services">
-          <h2>COMPANY</h2>
+          <h2>CONTACT</h2>
           <div className="footer-topics">
-            <div>Wheel change</div>
-            <div>Buy tires</div>
-            <div>Rent tires</div>
+            <div>kontakt@rubberduck.dk</div>
+            <div>+45 82 82 62 62</div>
           </div>
         </div>
         <div className="info">
-          <h2>COMPANY</h2>
+          <h2>OPEN</h2>
           <div className="footer-topics">
-            <div>How fast</div>
-            <div>Where</div>
-            <div>Why</div>
+            <div>Mon-Fri</div>
+            <div>09.00 - 16.00</div>
           </div>
         </div>
       </div>

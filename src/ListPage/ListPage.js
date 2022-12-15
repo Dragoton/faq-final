@@ -61,7 +61,7 @@ const ListPage = ({ searchResults }) => {
       </div>
     </>
   ) : (
-    <article>
+    <article className="no-posts">
       <p>No posts match</p>
     </article>
   );
